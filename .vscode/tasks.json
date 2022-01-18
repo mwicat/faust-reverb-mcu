@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "faust2svg",
+            "type": "shell",
+            "command": "make faust2svg",
+            "problemMatcher": []
+        },
+        {
+            "label": "faust2svgviewer",
+            "type": "shell",
+            "command": "make faust2svgviewer",
+            "problemMatcher": []
+        }
+    ]
+}
